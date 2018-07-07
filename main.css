@@ -8,13 +8,21 @@ body {
 	background-size: 100% auto;
 }
 
+/* @media screen and (maxiwdth: 600px) {
+	.pics {
+		height: 100%;
+	}
+} */
+
 #title {
 	display: flex;
 	justify-content: center;
-	background-color: silver;
+	background-color: #2144b5;
 	margin: 2% 15%;
 	border-radius: 25%;
 	padding: 4px;
+	color: white;
+	font-family: 'Slabo', serif;
 }
 
 #topRow {
@@ -67,10 +75,11 @@ body {
 	margin-top: 10%;
 	padding: 3px;
 	font-weight: 700;
+	position: absolute;
+	left: 0;
 }
 
 #creditBadge {
-	/* float: right; */
 	displaY: inline-block;
 }
 

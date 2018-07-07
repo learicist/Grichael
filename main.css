@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("http://res.cloudinary.com/learicist/image/upload/v1530928380/chris-liverani-510544-unsplash_fpj6vv.jpg");
+	background-size: 100% auto;
+}
+
+#title {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	background-color: silver;
+}
+
+#topRow {
+	display: flex;
+	justify-content: center;
+	border: 3px dashed white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px;
+	margin-bottom: 3%;
+}
+
+#midRow {
+	display: flex;
+	justify-content: center;
+	border: 3px dashed white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px;
+	margin-bottom: 3%;
+}
+
+#lowRow {
+	display: flex;
+	justify-content: center;
+	border: 3px dashed white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px;
+	margin-bottom: 3%;
+}
+
+.shot_and_save {
+	margin: 2px;
+	display:flex;
+	justify-content:center;
+}
+
+.pics {
+	margin: 1% auto;
+	width: 30%;
+	height: 25%;
+	border-radius: 15px;
+	border: 2px solid black;
+}
+
+.return {
+	outline: none;
+	text-decoration: none;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 6em;
+	margin-top: 10%;
+	padding: 3px;
+	font-weight: 700;
+}
+
+#girouxReel {
+	
+}
+
+#creditBadge {
+	right:0;
+}
+
+.hidden {
+	display: none;
+}

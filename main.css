@@ -11,8 +11,10 @@ body {
 #title {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 10px;
 	background-color: silver;
+	margin: 2% 15%;
+	border-radius: 25%;
+	padding: 4px;
 }
 
 #topRow {
@@ -67,12 +69,9 @@ body {
 	font-weight: 700;
 }
 
-#girouxReel {
-	
-}
-
 #creditBadge {
-	right:0;
+	/* float: right; */
+	displaY: inline-block;
 }
 
 .hidden {
